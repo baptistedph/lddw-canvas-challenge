@@ -54,7 +54,7 @@ const init = () => {
 
   // on charge la texture du drapeau
   textureLoader = new TextureLoader()
-  flagTexture = textureLoader.load('./images/texture.jpeg')
+  flagTexture = textureLoader.load('./texture.jpeg')
 
   // on crée le drapeau
   flag = new Mesh(
